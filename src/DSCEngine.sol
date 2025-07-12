@@ -33,6 +33,10 @@ pragma solidity ^0.8.18;
 // -$50 DSC
 // $24
 
+// OVERCOLLATERALIZED
+// $100 ETH Collateral -> $50 DSC
+// $50 DSC
+
 contract DSCEngine {
     function depositCollateralAndMintDsc() external {}
 
